@@ -5,24 +5,33 @@ using UnityEngine;
 public class D04_Mesh_Renderer : MonoBehaviour
 {
     MeshFilter ThisMeshFilter;
-    public GameObject MyCapsule, MySphere;
+    public GameObject Sphere, Capsule;
+    //public Material Red, Green;
 
-    // Start is called before the first frame update
     void Start()
     {
         ThisMeshFilter = GetComponent<MeshFilter>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))//마우스는 0이랑 1로 설정(0이 왼쪽 버튼)
+        if (Input.GetMouseButtonDown(0))
         {
-            ThisMeshFilter.mesh = MyCapsule.gameObject.GetComponent<MeshFilter>().mesh;
+            print("mouse 0");
+            ThisMeshFilter.mesh = Sphere.GetComponent<MeshFilter>().mesh;
         }
         if (Input.GetMouseButtonDown(1))
         {
-            ThisMeshFilter.mesh = MySphere.gameObject.GetComponent<MeshFilter>().mesh;
+            print("mouse 1");
+            ThisMeshFilter.mesh = Capsule.GetComponent<MeshFilter>().mesh;
         }
+        //if (Input.GetKeyDown(KeyCode.R))
+        //{
+        //    GetComponent<MeshRenderer>().material = Red;
+        //}
+        //if (Input.GetKeyDown(KeyCode.G))
+        //{
+        //    GetComponent<MeshRenderer>().material = Green;
+        //}
     }
 }
