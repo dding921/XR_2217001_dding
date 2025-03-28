@@ -5,7 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/D06_UI/D06_UI.unity
     guid: 8fc3fb2028e8fb148ad15b4cf5d401d9
+  - enabled: 1
+    path: Assets/D08_PassDataToTargetScene/D08_Class01.unity
+    guid: 07443c070c43fec4581839a2f8ae48fa
+  - enabled: 1
+    path: Assets/D08_PassDataToTargetScene/D08_Class02.unity
+    guid: b1ccb0837d5280d4f9f4649af11d4ff2
+  - enabled: 1
+    path: Assets/HW02_2217001_KMJ/HW02_2217001_KMJ.unity
+    guid: 35ff433d0ff8a4c4ea9d252506168faa
+  - enabled: 1
+    path: Assets/HW02_2217001_KMJ/SecondScene.unity
+    guid: 14dbf6a94bd017f4997bdb9ea8ab89d6
   m_configObjects: {}

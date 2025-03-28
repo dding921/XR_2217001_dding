@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a9eae5f39938dec469132581c831a63d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - billboardPlayer: {instanceID: 0}
+  - screenRenderer: {instanceID: 0}
+  - onMaterial: {fileID: 2100000, guid: 28352a9056eb55942b0346d0af565612, type: 2}
+  - offMaterial: {fileID: 2100000, guid: 8b779d207c3f4ad41bb915c903184eb4, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

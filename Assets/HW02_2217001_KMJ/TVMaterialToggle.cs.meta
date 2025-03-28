@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6d7dd8327d8780b409f69fdeb88dcc02
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - screenRenderer: {instanceID: 0}
+  - onMaterial: {fileID: 2100000, guid: 7913f60763ea30f4ab1c8599a1004cfc, type: 2}
+  - offMaterial: {fileID: 2100000, guid: 8b779d207c3f4ad41bb915c903184eb4, type: 2}
+  - videoPlayer: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
